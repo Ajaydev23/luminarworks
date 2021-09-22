@@ -1,0 +1,77 @@
+
+.parent{
+    border: solid rgb(116, 31, 31);
+    height: 500px;
+    width:45%;
+    position: relative;
+    
+}
+.parent1{
+    border: solid rgb(116, 31, 31);
+    height: 500px;
+    width:45%;
+    position: relative;
+    left: 45.3%;
+    margin-top: -33.4%;
+
+}
+.col{
+    width:21%;
+    height:497px;
+    border: 1px solid ;
+
+}
+.col1{
+    position: absolute;
+   
+    border: solid rgb(116, 31, 31);
+    
+    
+    background-color: #de5fe2;
+
+}
+.col2{
+    position: absolute;
+
+    border: solid rgb(116, 31, 31);
+    
+    left: 15%;
+    
+    
+    
+    background-color: darkslateblue;
+
+}
+.col3{
+    position: absolute;
+    border: solid rgb(116, 31, 31);
+    left: 35.4%;
+    
+    
+    
+    background-color: green;
+    
+}
+.col4{
+    position: absolute;
+    left: 57%;
+    
+    
+    
+    border: solid rgb(116, 31, 31);
+    
+    background-color: hotpink;
+  
+
+}
+.col5{
+    left: 78.7%;
+    position: absolute;
+    background-color: green;
+    border: solid rgb(116, 31, 31);
+    
+    
+    
+    
+
+}

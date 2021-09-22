@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+h1{
+    color: white;
+    text-align: center;
+    font-family:'Yanone Kaffeesatz', sans-serif;
+
+}
+body{
+    background-color: black;
+}
+div{
+    height: 160px;
+    width: 8%;
+    
+}
+#fr1{
+    background-color: rgb(11, 92, 173);
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+ #fr2{
+      background-color: rgb(6, 37, 20);
+      margin-top: -10.5%;
+      margin-left: 35%;
+}
+
+#fr3{
+    background-color: rgb(69, 107, 85);
+    margin-top: -10.5%;
+    margin-left: 45%;
+}
+
+#fr4{
+    background-color: rgb(6, 44, 6);
+    margin-top: -10.5%;
+    margin-left: 55%;
+}
+
+#fr5{
+    background-color: rgb(62, 45, 78);
+    margin-top: -10.5%;
+    margin-left: 65%;
+}
+
+#fr6{
+    background-color: rgb(99, 17, 17);
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+#fr7{
+    background-color: rgb(227, 134, 148);
+    margin-top: -10.5%;
+    margin-left: 25%;
+}
+
+#fr8{
+    background-color: rgb(212, 171, 198);
+    margin-top: -10.5%;
+    margin-left: 35%;
+}
+
+#fr9{
+    background-color: rgb(129, 47, 192);
+    margin-top: -10.5%;
+    margin-left: 45%;
+}
+
+#fr10{
+    background-color: rgb(111, 28, 176);
+    margin-top: -10.5%;
+    margin-left: 55%;
+}
+
+#fr11{
+    background-color: rgb(132, 95, 161);
+    margin-top: -10.5%;
+    margin-left: 65%;
+}
+
+#fr12{
+    background-color: rgb(99, 95, 102);
+    margin-top: -10.5%;
+    margin-left: 75%;
+}
+
+#fr13{
+    background-color: rgb(124, 220, 222);
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+#fr14{
+    background-color: rgb(111, 35, 197);
+    margin-top: -10.5%;
+    margin-left: 15%;
+}
+
+#fr15{
+    background-color: rgb(245, 182, 127);
+    margin-top: -10.5%;
+    margin-left: 25%;
+}
+
+#fr16{
+    background-color: rgb(161, 19, 121);
+    margin-top: -10.5%;
+    margin-left: 35%;
+}
+
+#fr17{
+    background-color: rgb(79, 24, 48);
+    margin-top: -10.5%;
+    margin-left: 45%;
+}
+
+#fr18{
+    background-color: rgb(48, 66, 62);
+    margin-top: -10.5%;
+    margin-left: 55%;
+}
+
+#fr19{
+    background-color: rgb(153, 124, 81);
+    margin-top: -10.5%;
+    margin-left: 65%;
+}
+
+#fr20{
+    background-color: rgb(138, 146, 21);
+    margin-top: -10.5%;
+    margin-left: 75%;
+}
+
+#fr21{
+    background-color: rgb(231, 218, 25);
+    margin-top: -10.5%;
+    margin-left: 85%;
+}

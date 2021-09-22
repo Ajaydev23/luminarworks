@@ -1,0 +1,17 @@
+div{
+    
+    border: solid cyan ;
+    height: 200px;
+    width: 40%;
+}
+.first{
+    position:absolute;
+    background-color: darkred;
+    margin-left: 30%;
+    margin-top: 33%;
+}
+.second{
+    position:absolute;
+    background-color: darkslateblue;
+    margin-left: 30%;
+}

@@ -1,0 +1,14 @@
+.row{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    
+}
+.col{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 6%;
+    border: 1px solid rgb(88, 32, 32);
+    width:  200px;
+    height: 200px;
+}
