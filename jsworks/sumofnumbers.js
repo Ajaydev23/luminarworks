@@ -5,11 +5,12 @@ while (i <= limit)
 {
 
 
-    if  i = 1)
-    {
+
         res=res+i;
+        
 
         i++;
 
-    }
+    
 }    
+console.log(res);

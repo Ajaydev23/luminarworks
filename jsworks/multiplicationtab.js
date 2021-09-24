@@ -1,5 +1,11 @@
 var num=2;
-while(i<10)
+var i=1;
+var result;
+
+while(i<=10)
 {
-    if(num)
+    result=num*i;
+    console.log(`${i}*${num}=${result}`);
+
+    i++;
 }
