@@ -1,29 +1,28 @@
 var num = 5;
-var str = "";
-for (let i = 0; i <= num; i++) {
 
-    {
-
-
-
-        for (let j = 0; j <= (num - i); j++) {
-
-            str += " ";
-
-        }
-        for (let s = 1; s <= 2 * i - 1; s++) {
-            if (i == 1 || i == num) {
-                str += "*";
-            }
-            else {
-
-            }
-
-        }
+for (let row = 0; row <=num; row++) {
+    let str = "";
+    
 
 
-        console.log(str);
-        str = "";
+
+    for (let space = 0; space <=(num - row - 1); space++) {
+
+        str += " ";
 
     }
+    for (let col = 0; col <(num*2-1); col++) {
+        if(row==num|row+col==num-1|row-col==num-1)
+        {
+            str += "* ";
+        }
+        
+
+    }
+    console.log(`        ${str}`);
+
+
+
+
+
 }

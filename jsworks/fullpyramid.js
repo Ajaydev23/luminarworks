@@ -1,25 +1,24 @@
 var num = 5;
-var str = "";
-for (let i = 0; i <= num; i++) 
-{
-    
-    {
-        var space="";
 
-        for (let j = 0; j <= (num-i-1); j++) {
+for (let row = 0; row < num; row++) {
+    let str = "";
 
-            str += " ";
 
-        }
-        for(let s=1;s<= 2*i + 1;s++)
-        {
-            str+="*";
 
-        }
-        console.log(space+str);
-        str="";
+
+    for (let space = 0; space < (num - row - 1); space++) {
+
+        str += " ";
 
     }
-    
+    for (let col = 0; col < (row + 1); col++) {
+        str += "* ";
+
+    }
+    console.log(`        ${str}`);
+
+
+
+
 
 }
