@@ -12,7 +12,7 @@ function primeNums(lower,upper)
 
 
         }
-        console.log(i);
+        
     }
+    console.log(primeNums(10,20));
 }
-console.log(primeNums(10,20));
