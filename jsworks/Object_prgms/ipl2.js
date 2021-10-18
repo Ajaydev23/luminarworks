@@ -11,6 +11,6 @@ var point_table=[
 //sort the teams wrt loss orderby desc
 point_table.sort((team1,team2)=>team2.loss-team1.loss)
 console.log(point_table);
-//rr details of rr
+//print details of rr
 var team_data=point_table.find(team=>team.t_name=="rr")
 console.log(team_data);

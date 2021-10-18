@@ -16,24 +16,33 @@ var weather_data=[
     {district:"mpm",temp:31},
 
 ]
+//tvm:30,apy:25,ktm:21)
 var forecast={}
 for(let data of weather_data)
 {
     let district_name=data.district;
     let cur_temp=data.temp;
-    if(cur_temp in forecast)
+    if(district_name in forecast)
     {
-        let old_temp=forecast[district_name]
-        if(cur_temp>old_temp)
+        
 
-            {
-                forecast[district_name]=cur_temp
-
-
-            }
     }
     else{
-        forecast[district_name]=cur_temp
+        forecast.district_name=cur_temp
     }
-}
-Object.entries(forecast).sort((temp1,temp))
+//     if(cur_temp in forecast)
+//     {
+//         let old_temp=forecast[district_name]
+//         if(cur_temp>old_temp)
+
+//             {
+//                 forecast[district_name]=cur_temp
+
+
+//             }
+//     }
+//     else{
+//         forecast[district_name]=cur_temp
+//     }
+// }
+// Object.entries(forecast).sort((temp1,temp))

@@ -11,4 +11,3 @@ for(var dupl of arr)
         duplicate[dupl]=1;
     }
 }
-var dup=duplicate.map(duplicate[dupl]=>duplicate[dupl]==2)
